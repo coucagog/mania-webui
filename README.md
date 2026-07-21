@@ -62,9 +62,9 @@ Cette image est **figée sur une version amont**. À chaque montée de version d
 
 ```bash
 docker run --rm mania-webui:latest sh -c \
-  'grep -c "<title>MANIA</title>" /app/static/index.html; \
-   grep -c "Habillage MANIA" /app/static/style.css; \
-   grep -c "F08C6A" /app/api/routes.py'
+  'grep -c "<title>MANIA</title>" /apptoo/static/index.html; \
+   grep -c "Habillage MANIA" /apptoo/static/style.css; \
+   grep -c "F08C6A" /apptoo/api/routes.py'
 ```
 
 Attendu : `1`, `1`, `1`. Un `0` signale un remplacement à corriger.

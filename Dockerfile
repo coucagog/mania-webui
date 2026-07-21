@@ -13,7 +13,7 @@ FROM ghcr.io/nesquena/hermes-webui:${BASE_VERSION}
 ARG MARQUE=MANIA
 
 # Favicons, logos (references en relatif depuis /app/static/style.css)
-COPY assets/ /app/static/
+COPY assets/ /apptoo/static/
 
 COPY rebrand.sh /tmp/rebrand.sh
 RUN sh /tmp/rebrand.sh "${MARQUE}" && rm -f /tmp/rebrand.sh

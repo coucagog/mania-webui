@@ -11,7 +11,7 @@
 # =============================================================================
 set -eu
 M="${1:-MANIA}"
-S=/app/static
+S=/apptoo/static
 
 # --- Titre de l'onglet et de la barre d'application -------------------------
 sed -i "s|<title>Hermes</title>|<title>${M}</title>|" "$S/index.html"
@@ -46,6 +46,6 @@ CSS
 
 # --- Degrade du carre de la page de connexion --------------------------------
 # (le NOM et l'INITIALE viennent du reglage `bot_name`, pas de l'image)
-sed -i "s|linear-gradient(145deg,#e8a030,#e94560)|linear-gradient(145deg,#F08C6A,#D4785A)|" /app/api/routes.py
+sed -i "s|linear-gradient(145deg,#e8a030,#e94560)|linear-gradient(145deg,#F08C6A,#D4785A)|" /apptoo/api/routes.py
 
 echo "Habillage ${M} applique."
