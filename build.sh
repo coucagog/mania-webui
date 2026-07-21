@@ -12,4 +12,4 @@ docker build \
 
 echo
 echo "Construit : mania-webui:$VERSION (et :latest)"
-echo "Verifier :  docker run --rm mania-webui:latest grep -o '<title>[^<]*' /app/static/index.html"
+echo "Verifier :  docker run --rm mania-webui:latest grep -o '<title>[^<]*' /apptoo/static/index.html"
