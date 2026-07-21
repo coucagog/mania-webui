@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ManIA">
+  <style>
+    .fond { fill: #2C3440; }
+    .m    { fill: #EDE7DD; }
+  </style>
+  <rect class="fond" width="64" height="64" rx="13"/>
+  <text x="32" y="43" text-anchor="middle" font-family="'Iowan Old Style','Charter',Georgia,serif" font-size="29" letter-spacing="-0.4">
+    <tspan class="m">M</tspan><tspan fill="#F08C6A">IA</tspan>
+  </text>
+</svg>
